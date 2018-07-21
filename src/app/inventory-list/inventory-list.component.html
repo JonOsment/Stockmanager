@@ -1,0 +1,9 @@
+<p>
+  inventory-list works!
+</p>
+
+<div *ngFor="let item of StockItemList">
+
+<app-stock-item [item]="item"></app-stock-item>
+<span>{{item.Id}}</span> {{item.Name}}
+</div>
